@@ -1,10 +1,16 @@
 <div align="center">
-  <h1>Quốc Khánh</h1>
-  <h3>Offensive Security Researcher</h3>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Qu%E1%BB%91c+Kh%C3%A1nh;Offensive+Security+Researcher;Whitebox+Auditing+%7C+Web+Exploitation" alt="Typing SVG" />
+
   <p>
-    <a href="https://kyrux29.github.io/web-blog/">Blog</a> •
-    <a href="https://linkedin.com/in/your-profile">LinkedIn</a> •
-    <a href="mailto:your-email@example.com">Email</a>
+    <a href="https://kyrux29.github.io/web-blog/">
+      <img src="https://img.shields.io/badge/Blog-Security_Research-0f172a?style=flat-square&logo=astro&logoColor=ff5d01" alt="Blog" />
+    </a>
+    <a href="https://linkedin.com/in/your-profile">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:your-email@example.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    </a>
   </p>
 </div>
 
@@ -13,11 +19,11 @@
 ## About
 
 Computer Engineering student at **Hanoi University of Science and Technology (HUST)**.  
-Member of **BKSEC** (HUST Information Security Club) — Web Exploitation team.
+Member of **BKSEC** — Web Exploitation team.
 
-I focus on **whitebox code auditing**, **web application security**, and **vulnerability research**. My work centers on tracing untrusted input to dangerous sinks, identifying architectural flaws, and understanding root causes rather than surface-level bugs.
+I focus on **whitebox code auditing** and **web application security**. I prefer tracing untrusted input to dangerous sinks and understanding root-cause architectural issues rather than surface-level bugs.
 
-I write technical research and CTF write-ups on [my blog](https://kyrux29.github.io/web-blog/).
+Research and write-ups: [Security Blog](https://kyrux29.github.io/web-blog/)
 
 ---
 
@@ -25,21 +31,22 @@ I write technical research and CTF write-ups on [my blog](https://kyrux29.github
 
 ### CVE-2026-115585 — pypdf
 
-| | |
-|---|---|
-| **Severity** | High (7.1) |
-| **Type** | Uncontrolled Resource Consumption (CWE-400) / Inefficient Algorithmic Complexity (CWE-407) |
-| **Impact** | Denial of Service via crafted cross-reference streams |
-| **Status** | Fixed in pypdf 6.21.2 |
-| **Advisory** | [GHSA-jr96-gvgh-j3r4](https://github.com/advisories/GHSA-jr96-gvgh-j3r4) |
+<div align="center">
+  <img src="https://img.shields.io/badge/Severity-High_7.1-critical?style=flat-square" />
+  <img src="https://img.shields.io/badge/CWE--400-Uncontrolled_Resource_Consumption-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/CWE--407-Inefficient_Algorithmic_Complexity-orange?style=flat-square" />
+</div>
 
-Discovered and reported a vulnerability in pypdf’s cross-reference parsing. An incomplete remediation for repeated malformed cross-reference entries allowed crafted PDFs to force repeated full stream reloads, even when a recovery cache was present. This resulted in extremely long runtimes and a practical denial-of-service condition.
+**Discovered and reported** a denial-of-service vulnerability in pypdf’s cross-reference parsing.
 
-This was a follow-up to a previous incomplete fix. The root cause lay in the interaction between the recovery logic and the cross-reference stream parser.
+An incomplete remediation for repeated malformed cross-reference entries allowed crafted PDFs to force repeated full stream reloads, even when a recovery cache was present. This produced extremely long runtimes and a practical DoS condition. Fixed in `pypdf` 6.21.2.
+
+- Advisory: [GHSA-jr96-gvgh-j3r4](https://github.com/advisories/GHSA-jr96-gvgh-j3r4)
+- CVE: [CVE-2026-115585](https://www.cve.org/CVERecord?id=CVE-2026-115585)
 
 ---
 
-## Competitive Security & Challenge Development
+## Competitive Security
 
 - Active CTF player with **BKSEC** (HackTheOn Sejong, KalmarCTF, UMASS CTF, Dreamhack)
 - Author of web exploitation challenges based on real-world vulnerabilities
@@ -49,22 +56,16 @@ This was a follow-up to a previous incomplete fix. The root cause lay in the int
 ## Technical Focus
 
 **Languages**  
-Python, Go, JavaScript/TypeScript, C/C++, Java, PHP
+Python · Go · JavaScript/TypeScript · C/C++ · Java · PHP
 
 **Security & Infrastructure**  
-Linux, Docker, Burp Suite, Nginx, PostgreSQL, MongoDB, Redis
-
-**Areas of Interest**  
-- Whitebox code auditing  
-- Web application security  
-- Source-to-sink analysis  
-- Architectural vulnerability research  
+Linux · Docker · Burp Suite · Nginx · PostgreSQL · MongoDB · Redis
 
 ---
 
 ## GitHub Activity
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=kyrux29&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyrux29&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+  <img height="155em" src="https://github-readme-stats.vercel.app/api?username=kyrux29&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" />
+  <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyrux29&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
 </div>
