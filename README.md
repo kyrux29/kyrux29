@@ -5,7 +5,7 @@
     <a href="https://kyrux29.github.io/web-blog/">
       <img src="https://img.shields.io/badge/Blog-Security_Research-0f172a?style=for-the-badge&logo=astro&logoColor=ff5d01" alt="Blog" />
     </a>
-    <a href="https://linkedin.com/in/your-profile](https://www.linkedin.com/in/khanh-vu-trong-quoc-b2176522a">
+    <a href="https://www.linkedin.com/in/khanh-vu-trong-quoc-b2176522a">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="mailto:your-email@example.com">
